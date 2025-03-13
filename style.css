@@ -1,0 +1,57 @@
+
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0000FF;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #0000FF;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.login button {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.intro {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.tutorials {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #0000FF;
+}
+
+.tutorial {
+    text-align: center;
+}
+
+.tutorial img {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background-color: #0000FF;
+    text-align: center;
+    padding: 10px;
+}
