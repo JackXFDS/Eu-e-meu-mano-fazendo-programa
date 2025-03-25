@@ -7,6 +7,7 @@ body {
     margin: 0;
     padding: 0;
 }
+.carousel-inner{ size 40 x 27 y;}
 
 header {
     display: flex;
@@ -29,9 +30,11 @@ header {
 }
 
 .intro {
-    background-color: #000000;
+    background-color: hwb(0 0% 100%);
     padding: 20px;
     text-align: center;
+    font-size:xx-large;
+    color: #f0e9e9;
 }
 
 .tutorials {
@@ -51,7 +54,8 @@ header {
 }
 
 footer {
-    background-color: #0000FF;
+    background-color: #02025a;
+    color: #f0e9e9;
     text-align: center;
     padding: 10px;
 }
