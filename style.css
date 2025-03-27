@@ -1,21 +1,14 @@
 
 /* Estilos básicos */
-body {
+
+.body {
     font-family: Arial, sans-serif;
     background-color: #0000FF;
     color: white;
     margin: 0;
     padding: 0;
 }
-.carousel-inner{ size 40 x 27 y;}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #0000FF;
-}
+.card { display: flex;}
 
 .logo img {
     width: 100px;
@@ -54,8 +47,9 @@ header {
 }
 
 footer {
+    margin-top:200px ;
     background-color: #02025a;
     color: #f0e9e9;
     text-align: center;
-    padding: 10px;
+    padding: 50px;
 }
